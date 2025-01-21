@@ -29,6 +29,7 @@ Analyzed pizza category performance for specific months (e.g., February).
 **Top 5 Best Sellers:** Identified the most popular pizzas based on the total quantity sold.
 **Bottom 5 Best Sellers:** Highlighted the least popular pizzas based on sales.
 
+
 # 🛠️ Tools Used
 ## SQL:
 Used SQL queries to calculate KPIs, identify trends, and perform category- and size-based analyses.
@@ -58,9 +59,9 @@ GROUP BY pizza_name
 ORDER BY Total_Pizza_Sold DESC;  
 
 ### 🌟 Key Takeaways
-***This project demonstrates the ability to:
+**This project demonstrates the ability to:
 Analyze business data using SQL.
 Extract actionable insights through structured queries.
-Combine SQL and Excel to present data-driven solutions.***
+Combine SQL and Excel to present data-driven solutions.**
 
 
