@@ -60,8 +60,8 @@ ORDER BY Total_Pizza_Sold DESC;
 
 ### 🌟 Key Takeaways
 **This project demonstrates the ability to:
-Analyze business data using SQL.
-Extract actionable insights through structured queries.
-Combine SQL and Excel to present data-driven solutions.**
+Analyze business data using SQL.                                                                                
+Extract actionable insights through structured queries.                                                                                                    
+Combine SQL and Excel to present data-driven solutions.**                                                                                                                              
 
 
