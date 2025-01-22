@@ -32,11 +32,10 @@ Analyzed pizza category performance for specific months (e.g., February).
 
 
 ## 🛠️ Tools Used                                                                                                      
-### SQL:                                                                                                                  
+### SQL:                                                                                                              
 Used SQL queries to calculate KPIs, identify trends, and perform category- and size-based analyses.                                                                            
 Filtered data by month, quarter, and week for detailed insights.                                                                                                                    
-
-### Excel:                                                                                                                                                  
+### Excel:                                                                                                                                                
 Visualized trends and summarized data for reports and dashboards.                                                                                                
 
 ### 📂 Project Structure
@@ -58,7 +57,7 @@ FROM pizza_sales GROUP BY pizza_name ORDER BY Total_Pizza_Sold DESC;
 
 ### 🌟 Key Takeaways
 **This project demonstrates the ability to:**
-*Analyze business data using SQL.                                                                                
+*Analyze business data using SQL.                                                                                          
 Extract actionable insights through structured queries.                                                                                                    
 Combine SQL and Excel to present data-driven solutions.*                                                                                                                            
 
