@@ -1,5 +1,6 @@
 # Excel-SQL-Data-Analysis-Project
 
+
 # 🍕 Pizza Sales Analysis 
 
 ***This project is a comprehensive analysis of pizza sales data using SQL and Excel to uncover key business insights and trends. 
@@ -56,8 +57,8 @@ SELECT TOP 5 pizza_name, SUM(quantity) AS Total_Pizza_Sold
 FROM pizza_sales GROUP BY pizza_name ORDER BY Total_Pizza_Sold DESC;  
 
 ### 🌟 Key Takeaways
-*This project demonstrates the ability to:
-Analyze business data using SQL.                                                                                
+**This project demonstrates the ability to:**
+*Analyze business data using SQL.                                                                                
 Extract actionable insights through structured queries.                                                                                                    
 Combine SQL and Excel to present data-driven solutions.*                                                                                                                            
 
