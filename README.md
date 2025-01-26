@@ -62,3 +62,5 @@ Extract actionable insights through structured queries.
 Combine SQL and Excel to present data-driven solutions.*                                                                                                                            
 
 
+D:\PowerBI+SQL\Pizza Excel+SQL
+
