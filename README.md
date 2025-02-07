@@ -55,6 +55,9 @@ FROM pizza_sales GROUP BY DATENAME(DW, order_date);
 SELECT TOP 5 pizza_name, SUM(quantity) AS Total_Pizza_Sold  
 FROM pizza_sales GROUP BY pizza_name ORDER BY Total_Pizza_Sold DESC;  
 
+### 📌 Below is a snapshot of the project showcasing key insights and visualizations from the analysis.
+![prgpic](https://github.com/user-attachments/assets/a8546700-d18e-40c0-b307-9893eaaff3b0)
+
 ### 🌟 Key Takeaways
 **This project demonstrates the ability to:**
 *Analyze business data using SQL.                                                                                          
