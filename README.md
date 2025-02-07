@@ -8,11 +8,11 @@ The dataset includes information about orders, pizzas sold, categories, sizes, a
 making it an excellent resource for practicing data analysis and SQL query writing***
 
 ### 📊 Key Performance Indicators (KPIs)                        
-**Total Revenue**: Calculated the total sales revenue.                                                                                                                                                       
-**Average Order Value**: Determined the average revenue per order.                                                                                                                                                  
-**Total Pizzas Sold**: Summed the total number of pizzas sold.                                                                                                                                                      
-**Total Orders**: Counted the distinct orders placed.                                                                                                                                                    
-**Average Pizzas Per Order**: Calculated the average number of pizzas per order.                                                                                                                      
+**1. Total Revenue**: Calculated the total sales revenue.                                                                                                                                                       
+**2. Average Order Value**: Determined the average revenue per order.                                                                                                                                                
+**3. Total Pizzas Sold**: Summed the total number of pizzas sold.                                                                                                                                                    
+**4. Total Orders**: Counted the distinct orders placed.                                                                                                                                                    
+**5. Average Pizzas Per Order**: Calculated the average number of pizzas per order.                                                                                                                      
   
 ### 📈 Analytical Insights
 **A. Daily Trend Analysis**                                                                                                                                                                                        
@@ -44,14 +44,14 @@ Visualized trends and summarized data for reports and dashboards.
 
 ### Documentation: Step-by-step explanations of queries and their outputs.                                                                                          
 ### 📝 Sample Queries
-**Total Revenue:**
+1️⃣**Total Revenue:**
 SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales;  
 
-**Daily Trend for Orders:**
+2️⃣**Daily Trend for Orders:**
 SELECT DATENAME(DW, order_date) AS order_day, COUNT(DISTINCT order_id) AS total_orders  
 FROM pizza_sales GROUP BY DATENAME(DW, order_date);  
 
-**Top 5 Best Sellers:**
+3️⃣**Top 5 Best Sellers:**
 SELECT TOP 5 pizza_name, SUM(quantity) AS Total_Pizza_Sold  
 FROM pizza_sales GROUP BY pizza_name ORDER BY Total_Pizza_Sold DESC;  
 
