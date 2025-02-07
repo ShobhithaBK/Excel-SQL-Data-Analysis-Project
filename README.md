@@ -1,5 +1,3 @@
-# Excel-SQL-Data-Analysis-Project
-
 
 # 🍕 Pizza Sales Analysis 
 
