@@ -44,14 +44,14 @@ Visualized trends and summarized data for reports and dashboards.
 
 ### Documentation: Step-by-step explanations of queries and their outputs.                                                                                          
 ### 📝 Sample Queries
-1️⃣**Total Revenue:**
+1️⃣ **Total Revenue:**
 SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales;  
 
-2️⃣**Daily Trend for Orders:**
+2️⃣ **Daily Trend for Orders:**
 SELECT DATENAME(DW, order_date) AS order_day, COUNT(DISTINCT order_id) AS total_orders  
 FROM pizza_sales GROUP BY DATENAME(DW, order_date);  
 
-3️⃣**Top 5 Best Sellers:**
+3️⃣ **Top 5 Best Sellers:**
 SELECT TOP 5 pizza_name, SUM(quantity) AS Total_Pizza_Sold  
 FROM pizza_sales GROUP BY pizza_name ORDER BY Total_Pizza_Sold DESC;  
 
